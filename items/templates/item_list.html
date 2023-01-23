@@ -22,6 +22,8 @@
                     <div class="card-body">
                       <h5 class="card-title"><a href="{% url 'item_detail' item_id=item.id%}">{{item.name}}</a></h5>
                       <p class="card-text">{{item.price}} KD</p>
+                      <p class="card-text">{{item.category}}</p>
+                      
                       <img src="" class="card-img-top" alt="ADD CATEGORY IMAGE HERE ">
                       <p class="card-text">ADD CATEGORY NAME HERE</p>
                     </div>
